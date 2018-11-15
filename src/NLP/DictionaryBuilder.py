@@ -18,7 +18,7 @@ class DictionaryBuilder:
 
     def __build_dict_from_folder(self, folder_path):
         # Lấy danh sách file trong folderPath, đọc, tách từ và lưu vào từ điển
-        file_reader = FileReader(filepath="")
+        file_reader = FileReader(path="")
         nlp = NLP(text="")
         files = [folder_path + '/' + files for files in os.listdir(folder_path)]
 

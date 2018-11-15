@@ -3,51 +3,59 @@ from src.NLP.FileHandler import FileReader, FileWriter
 from src.NLP.NLP import NLP
 import src.NLP.Setting as Setting
 
+# Input : Folder_path
+# Output : File feature của folder_path
+
 
 class FeatureFileBuilder:
-    def __init__(self, folder_path):
+    def __init__(self, folder_path, number):
         self.__folderPath = folder_path
-        self.__dictionary = FileReader(filepath=Setting.DIR_DICTIONARY).read_dictionary()
+        self.__dictionary = FileReader(path=Setting.DIR_DICTIONARY).read_dictionary()
+        self.__number = number
+        self.__file_target = Setting.DIR_FEATURE_PATH +"/"+\
+                             os.path.basename(os.path.dirname(os.path.dirname(self.__folderPath))) + '_' +\
+                             os.path.basename(os.path.dirname(self.__folderPath)) + '_' +\
+                             str(self.__number);
         self.__build_feature_from_folder()
 
+    # Lấy tập paths của các file trong folder
     def __get_filepath(self):
-        neg_path = self.__folderPath + "/neg"
-        pos_path = self.__folderPath + "/pos"
-        file_paths = [neg_path + "/" + file for file in os.listdir(neg_path)]
-        file_paths = file_paths + [pos_path + "/" + file for file in os.listdir(pos_path)]
+        file_paths = [self.__folderPath+ file for file in os.listdir(self.__folderPath)]
         return file_paths
 
-    # Đọc lần lượt các file train, test và xây dựng file feature
+    # Đọc number file trong folder cho trước, biểu thị dưới dạng BoW
     def __build_feature_from_folder(self):
-        # Đọc tất cả các file trong folder truyền vào
-        file_reader = FileReader(filepath="")
-        file_writer = FileWriter(filepath=self.__folderPath + '/feature.txt', Data="")
-        nlp = NLP(text="")
         file_paths = self.__get_filepath()
-
-        # Đọc các file trong folder
+        nlp = NLP(text="")
         count = 0
         for filePath in file_paths:
-            S = ""
-            bow = {}
-            file_reader.filePath = filePath
-            nlp.text = file_reader.read()
+            # Đọc text trong file và ghi lại vào list_word
+            if count == self.__number: break
+            nlp.text = FileReader(path=filePath).read()
             list_word = nlp.get_words_feature()
-
-            # Đếm số lần xuất hiện của các từ, sử dụng pp BoW
-            for word in list_word:
-                index_dict = self.__dictionary.get(word)
-                if (index_dict==None): index_dict = -1
-                if index_dict in bow:
-                    bow[index_dict] = bow.get(index_dict) + 1
-                else:
-                    bow[index_dict] = 1
-
-            # Lưu tệp sau khi đã mã hóa vào 1 xâu, sau đó lưu vào file feature
-            for word in bow:
-                S += str(count) + ":" + str(word) + ":" + str(bow.get(word)) + "\n"
-            file_writer.Data = S
-            file_writer.write_feature()
+            feature = self.__build_feature_from_file(list_word, count)
+            FileWriter(filepath=self.__file_target, Data=feature).write_feature()
             count += 1
+
+    # Đếm số lần xuất hiện của các từ, sử dụng pp BoW
+    # Đối với lần lượt từng từ trong list_word, kiểm tra xem có trong dictionary không
+    # Nếu không có trong dictionary thì index của nó được gán bằng -1
+    # Nếu có trong dictionary, kiểm tra xem đã xuất hiện trong bow không. Sau có cập nhật từ đó trong BoW
+    def __build_feature_from_file(self, list_word, count):
+        bow = {}
+        for word in list_word:
+            index_dict = self.__dictionary.get(word)
+            if (index_dict == None): index_dict = -1
+            if index_dict in bow:
+                bow[index_dict] = bow.get(index_dict) + 1
+            else:
+                bow[index_dict] = 1
+
+        # Lưu tệp sau khi đã mã hóa vào 1 xâu, sau đó lưu vào file feature
+        S =""
+        for word in bow:
+            S += str(count) + " " + str(word) + " " + str(bow.get(word)) + "\n"
+        return S
+
 
 

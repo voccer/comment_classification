@@ -14,7 +14,7 @@ class NLP:
 
     # Đọc stopword
     def set_stopWord(self):
-        stop_word = FileReader(filepath=Setting.STOP_WORD).read_stopword()
+        stop_word = FileReader(path=Setting.STOP_WORD).read_stopword()
         return stop_word
 
     # Xóa các ký tự đặc biệt và viết thường tất cả các chữ

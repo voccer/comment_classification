@@ -2,26 +2,41 @@ from src.NLP.DictionaryBuilder import DictionaryBuilder
 from src.NLP.FeatureFileBuilder import FeatureFileBuilder
 import src.NLP.Setting as Setting
 import os
-class main:
-    # Load dữ liệu từ các file train
-    # Xây dựng bộ từ điển từ
-    # Nếu đã có sẵn từ điển thì không thực hiện bước này
-    if not os.path.isfile(Setting.DIR_DICTIONARY):
-        print("Building Dictionary")
-        DictionaryBuilder()
 
-    # Load dữ liệu từ bộ train
-    # Xây dựng bộ test từ các file train
-    # Feature_Train : trong đó mỗi dòng có 3 phần từ : Thứ tự vb , ID trong từ điển , Số lần xuất hiện
-    # Label_Train : mỗi dòng chứa 1 hoặc 0 là xác nhận neg hay pos
-    if not os.path.isfile(Setting.DIR_TEST_PATH + "/feature.txt"):
-        print("Building Test Feature")
-        FeatureFileBuilder(folder_path=Setting.DIR_TEST_PATH)
-    if not os.path.isfile(Setting.DIR_TRAIN_PATH + "/feature.txt"):
-        print("Building Train Feature")
-        FeatureFileBuilder(folder_path=Setting.DIR_TRAIN_PATH)
+# Tạo file feature
+# Feature_Train : trong đó mỗi dòng có 3 phần từ : Thứ tự vb , ID trong từ điển , Số lần xuất hiện
 
-    # Load dữ liệu từ file test
-    # Xây dựng bộ test từ các file test
-    # Feature_Test : trong đó mỗi dòng có 3 phần tử : Thứ tự vb , ID trong từ điển , Số lần xuất hiện
-    # Label_Test : mỗi dòng chứa 1 hoặc 0 là xác nhận neg hay pos
+
+class MakeFeature:
+    def makeFeature(number):
+        test_neg = Setting.DIR_FEATURE_PATH + "/test_neg_" + str(number) + ".txt"
+        test_pos = Setting.DIR_FEATURE_PATH + "/test_pos_" + str(number) + ".txt"
+        train_neg = Setting.DIR_FEATURE_PATH + "/train_neg_" + str(number) + ".txt"
+        train_pos = Setting.DIR_FEATURE_PATH + "train_pos_" + str(number) + ".txt"
+
+        if not os.path.isfile(test_neg):
+            print("Building Test Positive Feature " + str(number))
+            FeatureFileBuilder(folder_path=Setting.DIR_TEST_PATH+"/neg/", number=number)
+        if not os.path.isfile(test_pos):
+            print("Building Test Negative Fearture " + str(number))
+            FeatureFileBuilder(folder_path=Setting.DIR_TEST_PATH+"/pos/", number=number)
+        if not os.path.isfile(train_neg):
+            print("Building Train Positive Feature " + str(number))
+            FeatureFileBuilder(folder_path=Setting.DIR_TRAIN_PATH+"/neg/", number=number)
+        if not os.path.isfile(train_pos):
+            print("Building Train Negative Feature " + str(number))
+            FeatureFileBuilder(folder_path=Setting.DIR_TRAIN_PATH+"/pos/", number=number)
+
+    if __name__ == '__main__':
+        # Load dữ liệu từ các file train
+        # Xây dựng bộ từ điển từ
+        # Nếu đã có sẵn từ điển thì không thực hiện bước này
+        if not os.path.isfile(Setting.DIR_DICTIONARY):
+            print("Building Dictionary")
+            DictionaryBuilder()
+
+        # Xây dựng các file train, test với n bình luận
+        array = {2}
+        for number in array:
+            makeFeature(number=number)
+
