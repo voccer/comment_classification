@@ -12,7 +12,8 @@ class FeatureFileBuilder:
         self.__folderPath = folder_path
         self.__dictionary = FileReader(path=Setting.DIR_DICTIONARY).read_dictionary()
         self.__number = number
-        self.__file_target = Setting.DIR_FEATURE_PATH +"/"+\
+        self.__file_target = Setting.DIR_FEATURE_PATH +"/"+ \
+                             "/feature_" + str(number) + "/" +\
                              os.path.basename(os.path.dirname(os.path.dirname(self.__folderPath))) + '_' +\
                              os.path.basename(os.path.dirname(self.__folderPath)) + '_' +\
                              str(self.__number);
