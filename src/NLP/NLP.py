@@ -30,9 +30,3 @@ class NLP:
     def get_words_feature(self):
         tokens = self.split_words()
         return [word for word in tokens if word not in self.stopword]
-
-class main:
-    if __name__ == '__main__':
-        text = "Story of a man who has unnatural feelings for a pig. Starts out with a opening scene that is a terrific example of absurd comedy. A formal orchestra audience is turned into an insane, violent mob by the crazy chantings of it's singers."
-        nlp = NLP(text=text)
-        print(nlp.get_words_feature())

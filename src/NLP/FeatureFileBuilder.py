@@ -8,15 +8,11 @@ import src.NLP.Setting as Setting
 
 
 class FeatureFileBuilder:
-    def __init__(self, folder_path, number):
+    def __init__(self, folder_path, number, file_target):
         self.__folderPath = folder_path
         self.__dictionary = FileReader(path=Setting.DIR_DICTIONARY).read_dictionary()
         self.__number = number
-        self.__file_target = Setting.DIR_FEATURE_PATH +"/"+ \
-                             "/feature_" + str(number) + "/" +\
-                             os.path.basename(os.path.dirname(os.path.dirname(self.__folderPath))) + '_' +\
-                             os.path.basename(os.path.dirname(self.__folderPath)) + '_' +\
-                             str(self.__number);
+        self.__file_target = file_target
         self.__build_feature_from_folder()
 
     # Lấy tập paths của các file trong folder
@@ -29,9 +25,11 @@ class FeatureFileBuilder:
         file_paths = self.__get_filepath()
         nlp = NLP(text="")
         count = 0
+        print (len(file_paths))
         for filePath in file_paths:
             # Đọc text trong file và ghi lại vào list_word
             if count == self.__number: break
+            print(count)
             nlp.text = FileReader(path=filePath).read()
             list_word = nlp.get_words_feature()
             feature = self.__build_feature_from_file(list_word, count)
@@ -42,6 +40,7 @@ class FeatureFileBuilder:
     # Đối với lần lượt từng từ trong list_word, kiểm tra xem có trong dictionary không
     # Nếu không có trong dictionary thì index của nó được gán bằng -1
     # Nếu có trong dictionary, kiểm tra xem đã xuất hiện trong bow không. Sau có cập nhật từ đó trong BoW
+
     def __build_feature_from_file(self, list_word, count):
         bow = {}
         for word in list_word:
