@@ -3,35 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/test_neg_100" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_100/test_neg_100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/test_pos_100" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_100/test_pos_100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/train_neg_100" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_100/train_neg_100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/train_pos_100" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_100/train_pos_100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_neg_12500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_12500/test_neg_12500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_pos_12500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_12500/test_pos_12500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_neg_12500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_12500/train_neg_12500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_pos_12500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_12500/train_pos_12500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/test_neg_300" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_300/test_neg_300" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/test_pos_300" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_300/test_pos_300" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/train_neg_300" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_300/train_neg_300" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/train_pos_300" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_300/train_pos_300" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_3000/test_neg_3000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_3000/test_neg_3000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_3000/test_pos_3000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_3000/test_pos_3000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_3000/train_neg_3000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_3000/train_neg_3000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_3000/train_pos_3000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_3000/train_pos_3000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_neg_500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_500/test_neg_500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_pos_500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_500/test_pos_500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_neg_500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_500/train_neg_500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_pos_500" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_500/train_pos_500" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_pos_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/test_pos_5000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_neg_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/train_neg_5000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_pos_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/train_pos_5000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NLP/NLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/NLP/NLP.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/MyFeature/test_neg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -326,18 +297,18 @@
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.16074188" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.16074188" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3257329" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3257329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -539,8 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/MyFeature/test_neg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
