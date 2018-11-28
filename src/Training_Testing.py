@@ -4,7 +4,7 @@ from sklearn import naive_bayes
 from sklearn.metrics import accuracy_score # Sử dụng để đánh giá kết quả mô hình
 
 nwords = 140187  # số từ trong từ điển 
-nTrain = 1000
+nTrain = 100
 nTest = nTrain
 
 # data path and file name
@@ -61,7 +61,7 @@ def read_data(data_pos, data_neg, n):
 (test_data, test_label)  = read_data(test_pos_fn, test_neg_fn,nTest)
 
 clf = naive_bayes.BernoulliNB()
-#clf = naive_bayes.MultinomialNB()
+# clf = naive_bayes.MultinomialNB()
 clf.fit(train_data, train_label)
 
 y_pred = clf.predict(test_data)
