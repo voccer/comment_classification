@@ -34,6 +34,15 @@ class FileReader:
                 count += 1
         return dictionary
 
+    """
+    Đọc feature
+    @:return list feature
+    """
+    def read_feature(self):
+        with open(file=self.filePath, mode='r') as f:
+            features = f.readlines()
+        features = [x.strip() for x in features]
+        return features
 
 class FileWriter:
     def __init__(self, filepath, Data):

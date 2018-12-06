@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ML/Training_Testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ML/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/train/neg/0_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/train/neg/0_3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dictionary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MakeFeatureAndDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Training_Testing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MakeFeatureAndDictionary.py">
+        <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+            <state relative-caret-position="1207">
+              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -35,11 +47,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Training_Testing.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="578">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ML/Training_Testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -47,29 +68,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="268" selection-start-line="268" selection-end-line="268" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="11" />
+            <state relative-caret-position="344">
+              <caret line="175" column="42" lean-forward="true" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#356#442#0" />
+                <element signature="e#2175#2240#0" />
+                <element signature="e#1620#3599#0" />
+                <element signature="e#4519#4702#1" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,17 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -119,6 +120,8 @@
       <find>test_data</find>
       <find>bad</find>
       <find>like</find>
+      <find>idx</find>
+      <find>max_indx</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,17 +151,24 @@
         <option value="$PROJECT_DIR$/src/GetFeature.py" />
         <option value="$PROJECT_DIR$/src/application/GetFeature.py" />
         <option value="$PROJECT_DIR$/src/nlp/FileHandler.py" />
-        <option value="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_3.txt" />
+        <option value="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" />
+        <option value="$PROJECT_DIR$/src/MakeFeatureAndDictionary.py" />
+        <option value="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" />
+        <option value="$PROJECT_DIR$/src/Training_Testing.py" />
+        <option value="$PROJECT_DIR$/src/ML/Training_Testing.py" />
+        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/csr.py" />
+        <option value="$PROJECT_DIR$/src/nlp/NLP.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_3.txt" />
+        <option value="$PROJECT_DIR$/src/FileHandler.py" />
         <option value="$PROJECT_DIR$/src/Setting.py" />
-        <option value="$PROJECT_DIR$/src/MakeFeatureAndDictionary.py" />
-        <option value="$PROJECT_DIR$/src/Training_Testing.py" />
+        <option value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
+        <option value="$PROJECT_DIR$/src/ML/Train_Test.py" />
       </list>
     </option>
   </component>
@@ -190,13 +200,41 @@
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Full" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
               <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="neg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
               <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+              <item name="feature_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
@@ -213,6 +251,12 @@
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="nlp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,20 +268,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ML" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/application" />
+      <recent name="$PROJECT_DIR$/Data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Data/Data_Test/train/pos" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/train/neg" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/test/pos" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/test/neg" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/application" />
-      <recent name="$PROJECT_DIR$/Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -252,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Training_Testing">
+  <component name="RunManager" selected="Python.Train_Test">
     <configuration name="GetFeature" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -274,7 +319,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NLP" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -282,11 +327,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/NLP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/NLP/NLP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train_Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BTL AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ML/Train_Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,7 +373,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Training_Testing.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ML/Training_Testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,28 +394,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/MakeFeatureAndDictionary.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BTL AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data/Data_Test/test/neg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data/Data_Test/test/neg/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -359,19 +404,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.NLP" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.GetFeature" />
       <item itemvalue="Python.Training_Testing" />
+      <item itemvalue="Python.Train_Test" />
+      <item itemvalue="Python.Setting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Training_Testing" />
+        <item itemvalue="Python.Train_Test" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Setting" />
+        <item itemvalue="Python.Training_Testing" />
         <item itemvalue="Python.GetFeature" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.NLP" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +434,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="27" width="1317" height="741" extended-state="6" />
+    <frame x="49" y="25" width="1317" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.18701701" />
@@ -397,7 +442,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32561985" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16123779" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,16 +457,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/Feature/test_neg_25" />
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/test.py" />
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/1_3.txt" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/train_pos_150" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/test_neg_2" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/test_pos_2" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/train_pos_2" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_20/test_neg_20" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_12500/train_neg_12500" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_12500/train_pos_12500" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -434,16 +469,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_100/test_neg_100">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_100000/test_neg_100000" />
     <entry file="file://$PROJECT_DIR$/Data/MyData/neg/0_1.txt">
@@ -459,20 +484,6 @@
     <entry file="file://$PROJECT_DIR$/src/application/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_50/test_pos_50">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -483,16 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63825">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -519,36 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_neg_1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_pos_1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_neg_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_pos_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding>
-            <marker date="1543386478432" expanded="true" signature="216:221" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_neg_1" />
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_pos_1" />
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_neg_1" />
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_pos_1" />
     <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -559,23 +534,10 @@
     <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="110537" column="14" selection-start-line="110537" selection-start-column="14" selection-end-line="110537" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -586,17 +548,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        <state relative-caret-position="127">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt">
+    <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1030" selection-start-line="1030" selection-end-line="1030" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="584" selection-start-line="584" selection-end-line="584" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4607">
+          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Full/test/neg/0_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+          <caret column="13" selection-end-column="900" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Full/test/neg/1_3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-end-column="715" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <marker date="1543990358183" expanded="true" signature="216:221" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3689">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_13/test_neg_13">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/csr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="252" selection-start-line="252" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -607,60 +655,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="11" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_neg_2">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2">
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/base.py">
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="268" selection-start-line="268" selection-end-line="268" />
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Setting.py">
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MakeFeatureAndDictionary.py">
+    <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
+        <state relative-caret-position="1207">
+          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Training_Testing.py">
+    <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="578">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ML/Training_Testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="175" column="42" lean-forward="true" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#356#442#0" />
+            <element signature="e#2175#2240#0" />
+            <element signature="e#1620#3599#0" />
+            <element signature="e#4519#4702#1" />
           </folding>
         </state>
       </provider>

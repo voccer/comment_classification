@@ -30,6 +30,7 @@ class FeatureFileBuilder:
             if count == self.__number: break
             nlp.text = FileReader(path=filePath).read()
             list_word = nlp.get_words_feature()
+
             feature = np.append(feature, self.__build_feature_from_file(list_word, count))
             count += 1
         return feature.reshape(-1,3)
