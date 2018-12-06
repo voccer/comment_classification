@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ML/Training_Testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ML/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_neg_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_pos_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_neg_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_pos_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MakeFeatureAndDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Training_Testing.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,14 +51,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="175" column="42" lean-forward="true" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+            <state relative-caret-position="236">
+              <caret line="194" column="48" selection-start-line="194" selection-start-column="11" selection-end-line="194" selection-end-column="48" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#356#442#0" />
-                <element signature="e#2175#2240#0" />
-                <element signature="e#1620#3599#0" />
-                <element signature="e#4519#4702#1" />
+                <element signature="e#482#1605#0" />
+                <element signature="e#2276#3086#0" />
+                <element signature="e#3476#4665#0" />
+                <element signature="e#5677#6099#0" />
               </folding>
             </state>
           </provider>
@@ -184,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,7 +244,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,8 +422,8 @@
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16123779" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30944625" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -703,6 +683,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
@@ -737,23 +724,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="175" column="42" lean-forward="true" selection-start-line="175" selection-start-column="42" selection-end-line="175" selection-end-column="42" />
+        <state relative-caret-position="236">
+          <caret line="194" column="48" selection-start-line="194" selection-start-column="11" selection-end-line="194" selection-end-column="48" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#356#442#0" />
-            <element signature="e#2175#2240#0" />
-            <element signature="e#1620#3599#0" />
-            <element signature="e#4519#4702#1" />
+            <element signature="e#482#1605#0" />
+            <element signature="e#2276#3086#0" />
+            <element signature="e#3476#4665#0" />
+            <element signature="e#5677#6099#0" />
           </folding>
         </state>
       </provider>

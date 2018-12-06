@@ -2,17 +2,18 @@ import src.Setting as setting
 from src.FileHandler import FileReader
 import numpy as np
 
-from scipy.sparse import coo_matrix
+from scipy import sparse
 from sklearn import naive_bayes
 import sklearn.metrics as sklm
 import sklearn.model_selection as ms
+import sklearn.feature_selection as fs
 
 """
 Chuyển ma trận feature thành dạng coo_matrix
 @:return coo_matrix feature 
 """
 def transform_to_coo_matrix(dat, row, col):
-    dat = coo_matrix((dat[:, 2], (dat[:, 0], dat[:, 1])), shape=(row, col))
+    dat = sparse.coo_matrix((dat[:, 2], (dat[:, 0], dat[:, 1])), shape=(row, col))
     return dat
 
 def print_metrics(labels, probs):
@@ -129,6 +130,8 @@ class Load_Data:
 
 class Bayes_classification:
     (train_data, train_label, test_data, test_label) = get_train_test()
+    total_data = sparse.vstack((train_data, test_data))
+    total_label = np.append(train_label, test_label)
 
     def train_test(self, train_data, train_label, test_data, test_label):
         clf = naive_bayes.MultinomialNB()
@@ -142,25 +145,33 @@ class Bayes_classification:
     @:returns train_data, train_label, test_data, test_label thu được sau khi tách ngẫu nhiên bộ train
     """
     def split_data(self):
-        self.train_data = self.train_data.tocsr()
-        indx = range(self.train_data.shape[0])
-        indx = ms.train_test_split(indx, test_size=1600)
-        train_data = self.train_data[indx[0], :]
-        train_label = np.ravel(self.train_label[indx[0]])
-        test_data = self.train_data[indx[1], :]
-        test_label = np.ravel(self.train_label[indx[1]])
+        self.total_data = self.total_data.tocsr()
+        indx = range(self.total_data.shape[0])
+        indx = ms.train_test_split(indx, test_size=2500)
+        train_data = self.total_data[indx[0], :]
+        train_label = np.ravel(self.total_label[indx[0]])
+        test_data = self.total_data[indx[1], :]
+        test_label = np.ravel(self.total_label[indx[1]])
 
         return (train_data, train_label, test_data, test_label)
 
     """
     Thực hiện cross validate
     """
-    def cross_validate(self):
+    def cross_validate(self, total_data):
         scoring = ['precision_macro', 'recall_macro', 'accuracy']
         clf = naive_bayes.MultinomialNB()
-        scores = ms.cross_validate(clf, self.train_data, self.train_label, scoring=scoring,
+        scores = ms.cross_validate(clf, total_data, self.total_label, scoring=scoring,
                                    cv=20, return_train_score=False)
         print_cv(scores)
+
+    """
+    Thực hiện selection feature 
+    """
+    def selection_feature(self, variance):
+        sel = fs.VarianceThreshold(threshold=(variance*(1-variance)))
+        total_data = sel.fit_transform(self.total_data)
+        return(total_data)
 
 if __name__ == '__main__':
     print("Thực hiện train-test với bộ dữ liệu có số lượng file neg-pos trong file train-test bằng nhau")
@@ -174,4 +185,12 @@ if __name__ == '__main__':
 
     print("\n"*5)
     print("Thực hiện cross validate k=20")
-    b.cross_validate()
+    b.cross_validate(b.total_data)
+
+    print("\n"*5)
+    print("Thực hiện loại bỏ các feature có phương sai < 0.95")
+    total_data = b.selection_feature(variance=0.95)
+    print("Shape of original model : " + str(b.total_data.shape))
+    print("Shape of model after selected feature : " +str(total_data.shape))
+    b.cross_validate(total_data)
+
