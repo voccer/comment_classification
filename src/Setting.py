@@ -14,4 +14,3 @@ DIR_APPLY_PATH = os.path.join(DIR_PATH, "Data/Apply")
 SPECIAL_CHARACTER = '0123456789%@$.,=+-!;/()*"&^:#|~_{}[]\n\t\'\"`‘\\ <>?'
 STOP_WORD = os.path.join(DIR_PATH, "Data/stopword.txt")
 LEFT_WORD = os.path.join(DIR_PATH, "Data/left_word")
-REVERSE = os.path.join(DIR_PATH, "Data/reverse")

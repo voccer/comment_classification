@@ -47,13 +47,6 @@ class FileReader:
         return left_word
 
     """
-    Đọc file reverse 
-    @:return list reverse
-    """
-    def read_reverse(self):
-        return self.read_feature()
-
-    """
     Đọc feature
     @:return list feature
     """

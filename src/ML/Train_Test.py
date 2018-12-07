@@ -36,9 +36,9 @@ def print_metrics(labels, probs):
     print('F1         %6.2f' % metrics[2][0] + '        %6.2f' % metrics[2][1])
 
 def get_train_test():
-    n_train = 2000
-    n_test = 1000
-    n_words = 140187
+    n_train = 12500
+    n_test = 12500
+    n_words = 140200
 
     train_data = Load_Data(number=n_train).load_feature(is_train=True)
     train_label = Load_Data(number=n_train).load_label()
@@ -108,7 +108,7 @@ class Load_Data:
         for i, line in enumerate(neg):
             a = line.split(' ')  # tách các dòng thành các chuỗi con, cắt theo dấu space
             dat[i + len(pos), :] = np.array(
-                [int(a[0]) + n_pos, int(a[1]), int(a[2])])  # gán giá trị tương ứng vào dòng thứ i của ma trận
+                [int(a[0]) + n_pos+1, int(a[1]), int(a[2])])  # gán giá trị tương ứng vào dòng thứ i của ma trận
 
         return dat
 
@@ -136,6 +136,7 @@ class Bayes_classification:
     def train_test(self, train_data, train_label, test_data, test_label):
         clf = naive_bayes.MultinomialNB()
         clf.fit(train_data, train_label)
+        # print(clf.predict_proba(test_data))
 
         probabilities = clf.predict(test_data)
         print_metrics(test_label, probabilities)
@@ -147,7 +148,7 @@ class Bayes_classification:
     def split_data(self):
         self.total_data = self.total_data.tocsr()
         indx = range(self.total_data.shape[0])
-        indx = ms.train_test_split(indx, test_size=2500)
+        indx = ms.train_test_split(indx, test_size=20000)
         train_data = self.total_data[indx[0], :]
         train_label = np.ravel(self.total_label[indx[0]])
         test_data = self.total_data[indx[1], :]
@@ -189,7 +190,7 @@ if __name__ == '__main__':
 
     print("\n"*5)
     print("Thực hiện loại bỏ các feature có phương sai < 0.95")
-    total_data = b.selection_feature(variance=0.95)
+    total_data = b.selection_feature(variance=0.99)
     print("Shape of original model : " + str(b.total_data.shape))
     print("Shape of model after selected feature : " +str(total_data.shape))
     b.cross_validate(total_data)
