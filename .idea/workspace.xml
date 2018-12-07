@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/train_neg_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_neg_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_pos_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_neg_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_pos_2000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_neg_500" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_pos_500" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_neg_500" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_pos_500" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dictionary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dictionary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/dictionary_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/list_word" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/reverse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileHandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileHandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ML/Train_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ML/Train_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nlp/NLP.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nlp/NLP.py" afterDir="false" />
-    </list>
+    <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="270">
+              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -51,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="-146">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -63,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="185" selection-start-line="185" selection-end-line="185" />
+            <state relative-caret-position="2">
+              <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <element signature="e#517#1640#0" />
@@ -159,10 +133,10 @@
         <option value="$PROJECT_DIR$/src/FileHandler.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" />
-        <option value="$PROJECT_DIR$/src/ML/Train_Test.py" />
-        <option value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
         <option value="$PROJECT_DIR$/src/Setting.py" />
         <option value="$PROJECT_DIR$/src/nlp/NLP.py" />
+        <option value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
+        <option value="$PROJECT_DIR$/src/ML/Train_Test.py" />
       </list>
     </option>
   </component>
@@ -245,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.Train_Test">
     <configuration name="Preprocesses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,8 +334,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.Train_Test" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Preprocesses" />
         <item itemvalue="Python.Setting" />
         <item itemvalue="Python.Training_Testing" />
@@ -383,20 +357,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.20324574" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30944625" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30944625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -708,10 +681,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="270">
+          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
@@ -720,21 +703,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        <state relative-caret-position="2">
+          <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#517#1640#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
