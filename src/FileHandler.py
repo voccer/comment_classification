@@ -35,6 +35,25 @@ class FileReader:
         return dictionary
 
     """
+    Đọc bộ từ trái nghĩa và trả ra bộ từ trái nghĩa dạng dictionary
+    @:return dictionay từ trái nghĩa
+    """
+    def read_left_word(self):
+        left_word = {}
+        with open(file=self.filePath, mode = 'r') as f:
+            for line in f.readlines():
+                x = line.strip("\n").split(" ")
+                left_word[x[0]] = x[1]
+        return left_word
+
+    """
+    Đọc file reverse 
+    @:return list reverse
+    """
+    def read_reverse(self):
+        return self.read_feature()
+
+    """
     Đọc feature
     @:return list feature
     """
@@ -70,6 +89,3 @@ class FileWriter:
                 for y in range(0, self.Data.shape[1]):
                     f.write( str(self.Data[x][y]) + ' ')
                 f.write('\n')
-
-
-

@@ -54,7 +54,6 @@ class FeatureFileBuilder:
         # Lưu tệp sau khi đã mã hóa vào 1 numpy
         S = np.array([]).astype(int)
         for word in bow:
-            # S += str(count) + " " + str(word) + " " + str(bow.get(word)) + "\n"
             S = np.append(S, np.array([count, word, bow.get(word)]))
         return S
 
