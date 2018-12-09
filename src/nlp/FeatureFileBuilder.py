@@ -7,7 +7,6 @@ import numpy as np
 # Input : Folder_path
 # Output : File feature của folder_path
 
-
 class FeatureFileBuilder:
     def __init__(self, folder_path, number = None):
         self.__folderPath = folder_path
@@ -40,7 +39,6 @@ class FeatureFileBuilder:
     Đối với lần lượt từng từ trong list_word, kiểm tra xem có trong dictionary không
     Nếu không có trong dictionary thì không được gán index
     Nếu có trong dictionary, kiểm tra xem đã xuất hiện trong bow không. Sau có cập nhật từ đó trong BoW
-    @:return 
     """
     def __build_feature_from_file(self, list_word, count):
         bow = {}
@@ -56,6 +54,3 @@ class FeatureFileBuilder:
         for word in bow:
             S = np.append(S, np.array([count, word, bow.get(word)]))
         return S
-
-
-

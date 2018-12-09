@@ -1,7 +1,483 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="" />
+    <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ml/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/0_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/0_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/100_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/101_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/102_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/103_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/104_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/105_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/106_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/107_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/108_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/109_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/10_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/10_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/110_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/111_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/112_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/113_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/114_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/115_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/116_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/117_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/118_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/119_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/11_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/11_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/120_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/121_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/122_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/123_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/12_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/12_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/13_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/13_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/14_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/14_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/15_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/15_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/16_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/16_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/17_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/17_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/18_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/18_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/19_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/19_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/1_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/1_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/20_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/20_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/21_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/21_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/22_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/22_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/23_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/23_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/24_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/24_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/25_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/25_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/26_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/26_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/27_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/27_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/28_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/28_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/29_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/29_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/2_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/2_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/30_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/30_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/31_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/31_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/32_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/32_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/33_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/33_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/34_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/34_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/35_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/35_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/36_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/36_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/37_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/37_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/38_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/38_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/39_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/39_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/3_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/3_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/40_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/40_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/41_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/41_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/42_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/42_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/43_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/43_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/44_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/44_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/45_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/45_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/46_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/46_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/47_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/47_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/48_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/48_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/49_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/49_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/4_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/4_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/50_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/50_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/51_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/51_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/52_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/52_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/53_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/53_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/54_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/54_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/55_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/55_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/56_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/56_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/57_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/57_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/58_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/58_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/59_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/59_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/5_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/5_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/60_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/60_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/61_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/61_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/62_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/62_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/63_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/63_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/64_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/64_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/65_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/65_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/66_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/66_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/67_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/67_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/68_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/68_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/69_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/69_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/6_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/6_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/70_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/70_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/71_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/71_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/72_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/72_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/73_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/73_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/74_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/74_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/75_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/75_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/76_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/76_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/77_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/77_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/78_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/78_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/79_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/79_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/7_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/7_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/80_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/80_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/81_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/81_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/82_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/82_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/83_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/84_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/85_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/86_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/87_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/88_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/89_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/8_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/8_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/90_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/91_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/92_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/93_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/94_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/95_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/96_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/97_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/98_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/99_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/9_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Apply/9_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Full/test/pos/10_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Full/test/pos/6_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Full/test/pos/7_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Full/test/pos/8_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Full/test/pos/9_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/test_neg_100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/test_pos_100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/train_neg_100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_100/train_pos_100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_neg_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_pos_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_neg_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_pos_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_13/test_neg_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_13/test_pos_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_13/train_neg_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_13/train_pos_13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/train_neg_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_25/test_neg_25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_25/test_pos_25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_25/train_neg_25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_25/train_pos_25" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/test_neg_300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/test_pos_300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/train_neg_300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_300/train_pos_300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/test_neg_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/test_pos_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/train_neg_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/train_pos_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_neg_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_pos_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_neg_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_pos_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_pos_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_neg_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_pos_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/0_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/100_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/101_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/102_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/103_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/104_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/105_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/106_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/107_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/108_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/109_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/10_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/110_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/111_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/112_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/113_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/114_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/115_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/116_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/117_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/118_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/119_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/11_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/120_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/121_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/122_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/123_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/12_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/13_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/14_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/15_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/16_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/17_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/18_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/19_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/1_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/20_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/21_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/22_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/23_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/24_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/25_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/26_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/27_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/28_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/29_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/2_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/30_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/31_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/32_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/33_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/34_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/35_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/36_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/37_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/38_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/39_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/3_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/40_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/41_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/42_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/43_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/44_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/45_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/46_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/47_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/48_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/49_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/4_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/50_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/51_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/52_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/53_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/54_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/55_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/56_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/57_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/58_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/59_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/5_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/60_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/61_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/62_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/63_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/64_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/65_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/66_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/67_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/68_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/69_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/6_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/70_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/71_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/72_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/73_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/74_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/75_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/76_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/77_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/78_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/79_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/7_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/80_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/81_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/82_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/83_0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/84_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/85_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/86_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/87_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/88_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/89_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/8_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/90_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/91_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/92_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/93_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/94_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/95_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/96_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/97_5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/98_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/99_6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/neg/9_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/0_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/10_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/11_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/12_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/13_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/14_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/15_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/16_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/17_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/18_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/19_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/1_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/20_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/21_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/22_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/23_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/24_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/25_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/26_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/27_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/28_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/29_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/2_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/30_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/31_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/32_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/33_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/34_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/35_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/36_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/37_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/38_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/39_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/3_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/40_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/41_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/42_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/43_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/44_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/45_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/46_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/47_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/48_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/49_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/4_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/50_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/51_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/52_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/53_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/54_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/55_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/56_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/57_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/58_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/59_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/5_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/60_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/61_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/62_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/63_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/64_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/65_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/66_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/67_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/68_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/69_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/6_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/70_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/71_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/72_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/73_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/74_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/75_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/76_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/77_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/78_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/79_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/7_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/80_10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/81_7.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/82_9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/8_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyData/pos/9_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyFeature/test_neg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/MyFeature/test_pos" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CrawlData.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/CrawlData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ML/Train_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/Train_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ML/Training_Testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml/Training_Testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ML/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/App.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/GetFeature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +489,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+            <state relative-caret-position="202">
+              <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -26,25 +502,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
+        <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="510">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1544343796478" expanded="true" signature="215:220" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2">
-              <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+            <state relative-caret-position="124">
+              <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#517#1640#0" />
+                <marker date="1544347269586" expanded="true" signature="8544:8572" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-560">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/application/App.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ml/Training_Testing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +643,6 @@
         <option value="$PROJECT_DIR$/src/nlp/Preprocesses.py" />
         <option value="$PROJECT_DIR$/Data/dictionary.txt" />
         <option value="$PROJECT_DIR$/Data/dictionary_1.txt" />
-        <option value="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" />
@@ -133,10 +650,17 @@
         <option value="$PROJECT_DIR$/src/FileHandler.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" />
-        <option value="$PROJECT_DIR$/src/Setting.py" />
         <option value="$PROJECT_DIR$/src/nlp/NLP.py" />
+        <option value="$PROJECT_DIR$/Data/MyFeature/test_neg" />
+        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py" />
         <option value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
         <option value="$PROJECT_DIR$/src/ML/Train_Test.py" />
+        <option value="$PROJECT_DIR$/src/Setting.py" />
+        <option value="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" />
+        <option value="$PROJECT_DIR$/src/application/App.py" />
+        <option value="$PROJECT_DIR$/src/CrawlData.py" />
+        <option value="$PROJECT_DIR$/src/ml/Train_Test.py" />
+        <option value="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" />
       </list>
     </option>
   </component>
@@ -169,18 +693,30 @@
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Data_Full" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
               <item name="Feature" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,18 +729,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data/App/comment" />
+      <recent name="$PROJECT_DIR$/Data/Data_Test/train/pos" />
+      <recent name="$PROJECT_DIR$/Data/Data_Test/train/neg" />
+      <recent name="$PROJECT_DIR$/Data/Data_Test/test/pos" />
+      <recent name="$PROJECT_DIR$/Data/Data_Test/test/neg" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ML" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/application" />
       <recent name="$PROJECT_DIR$/Data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Data/Data_Test/train/pos" />
-      <recent name="$PROJECT_DIR$/Data/Data_Test/train/neg" />
-      <recent name="$PROJECT_DIR$/Data/Data_Test/test/pos" />
-      <recent name="$PROJECT_DIR$/Data/Data_Test/test/neg" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,8 +755,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Train_Test">
-    <configuration name="Preprocesses" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MakeFeatureAndDictionary">
+    <configuration name="App" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +764,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/nlp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/application" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/nlp/Preprocesses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/application/App.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +777,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CrawlData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +789,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Setting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/CrawlData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MakeFeatureAndDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BTL AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,27 +832,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ML/Train_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Training_Testing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BTL AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ML/Training_Testing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,18 +863,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Training_Testing" />
       <item itemvalue="Python.Train_Test" />
-      <item itemvalue="Python.Setting" />
-      <item itemvalue="Python.Preprocesses" />
+      <item itemvalue="Python.CrawlData" />
+      <item itemvalue="Python.App" />
+      <item itemvalue="Python.MakeFeatureAndDictionary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MakeFeatureAndDictionary" />
+        <item itemvalue="Python.App" />
         <item itemvalue="Python.Train_Test" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Preprocesses" />
-        <item itemvalue="Python.Setting" />
-        <item itemvalue="Python.Training_Testing" />
+        <item itemvalue="Python.CrawlData" />
       </list>
     </recent_temporary>
   </component>
@@ -357,19 +893,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.20324574" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.19860896" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30944625" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30944625" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -396,46 +933,17 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/ml/Train_Test.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_50/test_pos_50">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_50/test_neg_50">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/MyFeature/test_neg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63825">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_25/train_pos_25">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="2700" column="12" lean-forward="true" selection-start-line="2700" selection-start-column="12" selection-end-line="2700" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_25/train_neg_25">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_25/test_pos_25">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_25/test_neg_25">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_neg_1" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/test_pos_1" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_neg_1" />
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_1/train_pos_1" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/base.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,24 +952,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/metrics/classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1030" selection-start-line="1030" selection-end-line="1030" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="584" selection-start-line="584" selection-end-line="584" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4607">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
         </state>
       </provider>
     </entry>
@@ -483,16 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="26" selection-end-column="715" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,64 +1010,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ML/Training_Testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="89539" column="11" lean-forward="true" selection-start-line="89527" selection-end-line="89539" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/Preprocesses.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/reverse">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding>
-            <marker date="1544202670440" expanded="true" signature="216:221" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/reverse" />
     <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
@@ -608,13 +1039,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/list_word">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/list_word" />
     <entry file="file://$PROJECT_DIR$/Data/left_word">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -674,40 +1099,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Setting.py">
+    <entry file="file://$PROJECT_DIR$/src/ML/final_model.sav" />
+    <entry file="file://$PROJECT_DIR$/Data/MyData/neg/0_1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MyFeature/test_neg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state relative-caret-position="77">
+          <caret line="3753" column="11" lean-forward="true" selection-start-line="3753" selection-start-column="11" selection-end-line="3753" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/MyFeature/test_pos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="3000" lean-forward="true" selection-start-line="3000" selection-end-line="3000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-60594027/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4204" column="8" selection-start-line="4204" selection-start-column="8" selection-end-line="4204" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/auto_click_browser/lib/python3.6/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="2323" column="8" selection-start-line="2323" selection-start-column="8" selection-end-line="2323" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="1030" selection-start-line="1030" selection-end-line="1030" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="81" column="28" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="28" />
+        <state relative-caret-position="4590">
+          <caret line="270" column="25" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/Preprocesses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ML/Train_Test.py">
+    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="138" column="45" lean-forward="true" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ml/Training_Testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/0_10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/6_7.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/8_9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="105" selection-end-column="1144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <marker date="1544343796478" expanded="true" signature="215:220" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/App.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#517#1640#0" />
+            <marker date="1544347269586" expanded="true" signature="8544:8572" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
