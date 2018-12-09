@@ -228,4 +228,3 @@ def test():
 # loaded_model = pickle.load((open(filename, 'rb')))
 # probabilities = loaded_model.predict(test_data)
 # print_metrics(test_label, probabilities)
-test()

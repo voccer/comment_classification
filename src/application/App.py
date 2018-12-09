@@ -5,8 +5,8 @@ import src.Setting as setting
 import pickle
 import numpy as np
 
-crawler = SeleniumCrawler().run_crawler(link="https://www.imdb.com/title/tt5523010/reviews?ref_=tt_ov_rt")
-feature = FeatureFileBuilder(folder_path=setting.DIR_APP_PATH+"/comment").build_feature_from_folder()
+# crawler = SeleniumCrawler().run_crawler(link="https://www.imdb.com/title/tt5523010/reviews?ref_=tt_ov_rt")
+feature = FeatureFileBuilder("../../Data/MyData/neg").build_feature_from_folder()
 n_feature = feature[-1][0] + 1
 n_word = 140200
 
