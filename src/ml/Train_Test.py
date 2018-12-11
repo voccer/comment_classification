@@ -39,8 +39,8 @@ def print_metrics(labels, probs):
     print('F1         %6.2f' % metrics[2][1] + '        %6.2f' % metrics[2][0])
 
 def get_train_test():
-    n_train = 5000
-    n_test = 5000
+    n_train = 12500
+    n_test = 12500
     n_words = 140200
 
     train_data, train_label = Load_Data(number=n_train).load_dataset(is_train=True)
@@ -162,7 +162,7 @@ class Bayes_classification:
     def split_data(self):
         self.total_data = self.total_data.tocsr()
         indx = range(self.total_data.shape[0])
-        indx = ms.train_test_split(indx, test_size=1000)
+        indx = ms.train_test_split(indx, test_size=20000)
         train_data = self.total_data[indx[0], :]
         train_label = np.ravel(self.total_label[indx[0]])
         test_data = self.total_data[indx[1], :]
@@ -192,8 +192,14 @@ class Bayes_classification:
     Thực hiện train và lưu model
     """
     def train_and_store_model(self):
+        sel = fs.VarianceThreshold(threshold=0.99*(1-0.99))
+        sel.fit(self.total_data)
+        pickle.dump(sel, open("../../sel.sav", 'wb'))
+        total_data = sel.transform(self.total_data)
+        print(total_data.shape)
+
         clf = naive_bayes.MultinomialNB()
-        clf.fit(self.total_data, self.total_label)
+        clf.fit(total_data, self.total_label)
         pickle.dump(clf, open(self.filename, 'wb'))
 
 def test():
@@ -218,8 +224,8 @@ def test():
     b.cross_validate(total_data)
 
 # b = Bayes_classification()
-# b.train_model()
-
+# b.train_and_store_model()
+#
 # test_data, test_label = Load_Data(number=None, file_path="/home/toanloi/Documents/comment_classification/Data/MyFeature").\
 #         load_dataset(is_train=False)
 # test_data = transform_to_coo_matrix(test_data, len(test_label), 140200)
@@ -228,3 +234,4 @@ def test():
 # loaded_model = pickle.load((open(filename, 'rb')))
 # probabilities = loaded_model.predict(test_data)
 # print_metrics(test_label, probabilities)
+test()

@@ -2,7 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71036590-969e-4f1f-b50c-aee26af8655c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/test_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_neg_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_1000/train_pos_1000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_neg_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/test_pos_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_neg_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_12500/train_pos_12500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_200/test_neg_200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_200/test_pos_200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_200/train_neg_200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_200/train_pos_200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/test_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_neg_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_2000/train_pos_2000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/test_neg_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/test_pos_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/train_neg_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_50/train_pos_50" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_neg_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/test_pos_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_neg_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_500/train_pos_500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/test_pos_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_neg_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Feature/feature_5000/train_pos_5000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_model.sav" beforeDir="false" afterPath="$PROJECT_DIR$/final_model.sav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/App.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,13 +48,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py">
+        <entry file="file://$PROJECT_DIR$/src/Setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -30,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="253">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
               <folding>
                 <marker date="1544343796478" expanded="true" signature="215:220" ph="..." />
               </folding>
@@ -40,34 +69,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
+        <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
+            <state relative-caret-position="168">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
-                <marker date="1544351692701" expanded="true" signature="8544:8572" ph="..." />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
+        <entry file="file://$PROJECT_DIR$/Data/left_word">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+            <state relative-caret-position="239">
+              <caret line="142" column="27" lean-forward="true" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="27" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,34 +104,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/application/App.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="271">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="154">
-                <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ml/Training_Testing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/NLP/Build_Dictionary.py" />
         <option value="$PROJECT_DIR$/src/NLP/File_Reader.py" />
         <option value="$PROJECT_DIR$/src/NLP/FileReader.py" />
         <option value="$USER_HOME$/Exercise/VNTC-master/Tokenizer/Setting.py" />
@@ -170,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/GetFeature.py" />
         <option value="$PROJECT_DIR$/src/application/GetFeature.py" />
         <option value="$PROJECT_DIR$/src/nlp/FileHandler.py" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/train/neg/0_3.txt" />
         <option value="$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000" />
@@ -184,24 +186,27 @@
         <option value="$PROJECT_DIR$/Data/dictionary.txt" />
         <option value="$PROJECT_DIR$/Data/dictionary_1.txt" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" />
         <option value="$PROJECT_DIR$/Data/reverse" />
         <option value="$PROJECT_DIR$/src/FileHandler.py" />
         <option value="$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt" />
-        <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" />
-        <option value="$PROJECT_DIR$/src/nlp/NLP.py" />
         <option value="$PROJECT_DIR$/Data/MyFeature/test_neg" />
-        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py" />
         <option value="$PROJECT_DIR$/src/ML/MakeFeatureAndDictionary.py" />
         <option value="$PROJECT_DIR$/src/ML/Train_Test.py" />
-        <option value="$PROJECT_DIR$/src/Setting.py" />
         <option value="$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py" />
         <option value="$PROJECT_DIR$/src/CrawlData.py" />
-        <option value="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" />
-        <option value="$PROJECT_DIR$/src/application/App.py" />
-        <option value="$PROJECT_DIR$/src/ml/Train_Test.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Data/test/test.txt" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt" />
+        <option value="$PROJECT_DIR$/src/Setting.py" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt" />
+        <option value="$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt" />
+        <option value="$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py" />
+        <option value="$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/feature_selection/base.py" />
+        <option value="$PROJECT_DIR$/src/application/App.py" />
+        <option value="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" />
+        <option value="$PROJECT_DIR$/src/nlp/NLP.py" />
+        <option value="$PROJECT_DIR$/src/ml/Train_Test.py" />
       </list>
     </option>
   </component>
@@ -217,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,25 +238,33 @@
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="MyData" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="MyData" type="462c0819:PsiDirectoryNode" />
-              <item name="neg" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="comment_classification" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comment_classification" type="b2602c69:ProjectViewProjectNode" />
@@ -270,6 +282,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,18 +290,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Data" />
+      <recent name="$PROJECT_DIR$/src/ML" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/application" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Data/App/comment" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/train/pos" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/train/neg" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/test/pos" />
       <recent name="$PROJECT_DIR$/Data/Data_Test/test/neg" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ML" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/application" />
-      <recent name="$PROJECT_DIR$/Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.App">
+  <component name="RunManager" selected="Python.Train_Test (1)">
     <configuration name="App" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,27 +338,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="CrawlData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BTL AI" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/CrawlData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="MakeFeatureAndDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BTL AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -359,6 +351,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train_Test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BTL AI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ml/Train_Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -412,17 +425,17 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Train_Test" />
-      <item itemvalue="Python.CrawlData" />
       <item itemvalue="Python.App" />
       <item itemvalue="Python.MakeFeatureAndDictionary" />
+      <item itemvalue="Python.Train_Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Train_Test (1)" />
         <item itemvalue="Python.App" />
         <item itemvalue="Python.MakeFeatureAndDictionary" />
         <item itemvalue="Python.Train_Test" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.CrawlData" />
       </list>
     </recent_temporary>
   </component>
@@ -441,14 +454,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.19860896" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.21406491" />
       <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.2496136" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32736155" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30944625" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30944625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -492,34 +504,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="584" selection-start-line="584" selection-end-line="584" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_5000/test_neg_5000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Full/test/neg/0_2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-end-column="900" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/Data_Full/test/neg/1_3.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -534,9 +518,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_13/test_neg_13">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_13/test_neg_13" />
     <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/csr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -544,12 +526,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_neg_2">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_pos_2" />
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/train_neg_2" />
     <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/model_selection/_validation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -558,27 +536,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/reverse" />
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/dictionary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416371">
-          <caret line="140052" column="10" selection-start-line="140052" selection-start-column="10" selection-end-line="140052" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_neg_2" />
+    <entry file="file://$PROJECT_DIR$/Data/Feature/feature_2/test_pos_2" />
     <entry file="file://$PROJECT_DIR$/Data/stopword.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -587,23 +546,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/list_word" />
-    <entry file="file://$PROJECT_DIR$/Data/left_word">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" selection-start-line="2" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/neg/0_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -615,34 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/pos/0_8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -688,23 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4590">
-          <caret line="270" column="25" selection-start-line="270" selection-start-column="25" selection-end-line="270" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nlp/Preprocesses.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -715,33 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ml/Training_Testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/GetFeature.py" />
     <entry file="file://$PROJECT_DIR$/src/FileHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -749,38 +620,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/App/comment/0_10.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/0_10.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/6_7.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/App/comment/8_9.txt" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/App/comment/6_7.txt">
+    <entry file="file://$PROJECT_DIR$/Data/dictionary.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="712" />
+        <state relative-caret-position="2278382">
+          <caret line="140039" column="12" lean-forward="true" selection-start-line="140039" selection-start-column="12" selection-end-line="140039" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/App/comment/8_9.txt">
+    <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="99" column="37" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ml/Training_Testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/test/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="105" selection-end-column="1144" />
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/neg/0_2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nlp/DictionaryBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="66">
           <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/train/pos/0_9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/0_8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/left_word">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Data_Test/test/pos/0_10.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/scipy/sparse/coo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sel.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/BTL AI/lib/python3.6/site-packages/sklearn/feature_selection/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="80" column="55" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nlp/FeatureFileBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="253">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
           <folding>
             <marker date="1544343796478" expanded="true" signature="215:220" ph="..." />
           </folding>
@@ -789,52 +766,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ml/MakeFeatureAndDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="77" column="23" lean-forward="true" selection-start-line="77" selection-start-column="23" selection-end-line="77" selection-end-column="23" />
+        <state relative-caret-position="253">
+          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
+    <entry file="file://$PROJECT_DIR$/src/nlp/NLP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="229" column="42" selection-start-line="229" selection-start-column="42" selection-end-line="229" selection-end-column="42" />
+        <state relative-caret-position="168">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <marker date="1544351692701" expanded="true" signature="8544:8572" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CrawlData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="99" column="37" lean-forward="true" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/App.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="52" />
+        <state relative-caret-position="271">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/ml/Train_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="142" column="27" lean-forward="true" selection-start-line="142" selection-start-column="27" selection-end-line="142" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 from nltk.tokenize import word_tokenize
 from src.FileHandler import FileReader
 import src.Setting as Setting
+import numpy as np
 
 class NLP:
     def __init__(self, text):
@@ -20,14 +21,12 @@ class NLP:
 
     def remove_negative_word(self):
         tokens = self.segmentation()
-        label = False
-        for i in range(len(tokens)):
+        for i in range(len(tokens)-1):
             if tokens[i] in ["n't","not","no"]:
-                label = not label
-                tokens[i] = ","
-            if tokens[i] in self.leftword and label == True:
-                tokens[i] = self.leftword.get(tokens[i])
-            if tokens[i] in Setting.SPECIAL_CHARACTER and tokens[i] != ",": label = False
+                if tokens[i+1] != None and tokens[i+1] in self.leftword:
+                    tokens[i] = ","
+                    tokens[i+1] = self.leftword.get(tokens[i+1])
+                    i += 1
         return tokens
 
     # Xóa các ký tự đặc biệt và viết thường tất cả các chữ

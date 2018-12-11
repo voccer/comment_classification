@@ -74,7 +74,7 @@ class main:
 
         # Xây dựng các file train, test với n bình luận
         mk = MakeFeature()
-        array = {50, 200, 500, 1000, 2000, 5000, 12500}
+        array = {100, 200, 500, 1000, 2000, 5000, 12500}
         for x in array:
             print("Buiding feature " + str(x))
             mk.makeFeature(x)
