@@ -2,6 +2,10 @@
 Phân loại bình luận film, phục vụ cho việc đánh giá film
 
 Sử dụng : 
+* sử dụng môi trường python 3.6 để chạy
+* sử dụng pip để cài 1 số gói cần thiết
+ pip install -r requirements.txt 
+ 
 * Lấy comment trực tiếp từ trên IMDB
   * Mở file src/application/App.py
   * Thay thuộc tính link của biến crawler bằng link reviews phim mong muốn, lưu ý link film phải là link trên trang IMDB.
