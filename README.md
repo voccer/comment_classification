@@ -7,6 +7,9 @@ Sử dụng :
  pip install -r requirements.txt 
 * Để thực hiên kiểm tra độ chính xác của thuật toán với bộ test cho trước,
  Vào file app.py trong package Application, uncomment dòng thứ 6 và chạy file app.py
+  ```python 
+    # Train_Test.test()
+  ```
 * Lấy comment trực tiếp từ trên IMDB
   * Mở file src/application/App.py
   * Thay thuộc tính link của biến crawler bằng link reviews phim mong muốn, lưu ý link film phải là link trên trang IMDB.
