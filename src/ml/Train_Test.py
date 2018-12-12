@@ -7,6 +7,7 @@ import os
 from scipy import sparse
 from sklearn import naive_bayes
 from sklearn import linear_model
+from sklearn.metrics import accuracy_score
 import sklearn.metrics as sklm
 import sklearn.model_selection as ms
 import sklearn.feature_selection as fs
@@ -28,7 +29,6 @@ def print_metrics(labels, probs):
     print('Actual negative    %6d' % conf[0, 1] + '             %5d' % conf[0, 0])
     print('')
     print('Accuracy        %0.5f' % sklm.accuracy_score(labels, probs))
-    print('AUC             %0.5f' % sklm.roc_auc_score(labels, probs[:]))
     print('Macro precision %0.5f' % float((float(metrics[0][0]) + float(metrics[0][1])) / 2.0))
     print('Macro recall    %0.5f' % float((float(metrics[1][0]) + float(metrics[1][1])) / 2.0))
     print(' ')
@@ -44,7 +44,6 @@ def get_train_test():
     n_words = 140200
 
     train_data, train_label = Load_Data(number=n_train).load_dataset(is_train=True)
-
     test_data, test_label = Load_Data(number=n_test).load_dataset(is_train=False)
 
     train_data = transform_to_coo_matrix(train_data, 2 * n_train, n_words)
@@ -53,7 +52,10 @@ def get_train_test():
     return (train_data, train_label, test_data, test_label)
 
 def print_format(f,x,y,z):
-    print('Fold %2d    %4.3f        %4.3f      %4.3f' % (f, x, y, z))
+    print('Fold %2d    %4.4f        %4.4f      %4.4f' % (f, x, y, z))
+
+def print_format_2(f,x):
+    print('alpha = %2.5f     %2.5f' %(f,x))
 
 def print_cv(scores):
     fold = [x + 1 for x in range(len(scores['test_precision_macro']))]
@@ -62,11 +64,11 @@ def print_cv(scores):
                                           scores['test_recall_macro'],
                                           scores['test_accuracy'])]
     print('-' * 40)
-    print('Mean       %4.3f        %4.3f      %4.3f' %
+    print('Mean       %4.4f        %4.4f     %4.4f' %
           (float(np.mean(scores['test_precision_macro'])),
            float(np.mean(scores['test_recall_macro'])),
            float(np.mean(scores['test_accuracy']))))
-    print('Std        %4.3f        %4.3f      %4.3f' %
+    print('Std        %4.4f        %4.4f      %4.4f' %
           (float(np.std(scores['test_precision_macro'])),
            float(np.std(scores['test_recall_macro'])),
            float(np.std(scores['test_accuracy']))))
@@ -147,11 +149,16 @@ class Bayes_classification:
         self.total_data = sparse.vstack((self.train_data, self.test_data))
         self.total_label = np.append(self.train_label, self.test_label)
 
+        self.total_data = self.total_data.tocsr()
+        index = np.arange(np.shape(self.total_data)[0])
+        for i in range(10):
+            np.random.shuffle(index)
+        self.total_data = self.total_data[index, :]
+        self.total_label = self.total_label[index]
+
     def train_test(self, train_data, train_label, test_data, test_label):
         clf = naive_bayes.MultinomialNB()
         clf.fit(train_data, train_label)
-        # print(clf.predict_proba(test_data))
-
         probabilities = clf.predict(test_data)
         print_metrics(test_label, probabilities)
 
@@ -162,7 +169,7 @@ class Bayes_classification:
     def split_data(self):
         self.total_data = self.total_data.tocsr()
         indx = range(self.total_data.shape[0])
-        indx = ms.train_test_split(indx, test_size=20000)
+        indx = ms.train_test_split(indx, test_size=10000, shuffle=True)
         train_data = self.total_data[indx[0], :]
         train_label = np.ravel(self.total_label[indx[0]])
         test_data = self.total_data[indx[1], :]
@@ -173,11 +180,19 @@ class Bayes_classification:
     """
     Thực hiện cross validate
     """
-    def cross_validate(self, total_data):
+    def cross_validate(self, total_data, k):
         scoring = ['precision_macro', 'recall_macro', 'accuracy']
         clf = naive_bayes.MultinomialNB()
+        cv = ms.KFold(n_splits=k, shuffle=True)
+        # for train_index, test_index in cv.split(self.total_data):
+        #     train_data = self.total_data[train_index, :]
+        #     train_label = np.ravel(self.total_label[train_index])
+        #     test_data = self.total_data[test_index, :]
+        #     test_label = np.ravel(self.total_label[test_index])
+        #     self.train_test(train_data, train_label, test_data, test_label)
+        #     print('\n'*5)
         scores = ms.cross_validate(clf, total_data, self.total_label, scoring=scoring,
-                                   cv=20, return_train_score=False)
+                                   cv=cv)
         print_cv(scores)
 
     """
@@ -188,23 +203,25 @@ class Bayes_classification:
         total_data = sel.fit_transform(self.total_data)
         return (total_data)
 
+    def test_alpha(self, alpha, k = 10):
+        clf = naive_bayes.MultinomialNB(alpha=alpha)
+        scoring = ['accuracy']
+        cv = ms.KFold(n_splits=k, shuffle=True)
+        scores = ms.cross_validate(clf, self.total_data, self.total_label, scoring=scoring, cv=cv)
+        return np.mean(scores['test_accuracy'])
+
     """
     Thực hiện train và lưu model
     """
     def train_and_store_model(self):
-        sel = fs.VarianceThreshold(threshold=0.99*(1-0.99))
-        sel.fit(self.total_data)
-        pickle.dump(sel, open("../../sel.sav", 'wb'))
-        total_data = sel.transform(self.total_data)
-        print(total_data.shape)
-
         clf = naive_bayes.MultinomialNB()
-        clf.fit(total_data, self.total_label)
+        clf.fit(self.total_data, self.total_label)
         pickle.dump(clf, open(self.filename, 'wb'))
 
 def test():
-    print("Thực hiện train-test với bộ dữ liệu có số lượng file neg-pos trong file train-test bằng nhau")
     b = Bayes_classification()
+
+    print("Thực hiện train-test với bộ dữ liệu có số lượng file neg-pos trong file train-test bằng nhau")
     b.train_test(b.train_data, b.train_label, b.test_data, b.test_label)
 
     print("\n"*5)
@@ -213,25 +230,29 @@ def test():
     b.train_test(train_data, train_label, test_data, test_label)
 
     print("\n"*5)
-    print("Thực hiện cross validate k=20")
-    b.cross_validate(b.total_data)
+    print("Thực hiện cross validate k=10")
+    b.cross_validate(b.total_data, k = 10)
 
     print("\n"*5)
-    print("Thực hiện loại bỏ các feature có phương sai < 0.95")
+    print("Thực hiện loại bỏ các feature có phương sai < 0.99")
     total_data = b.selection_feature(variance=0.99)
     print("Shape of original model : " + str(b.total_data.shape))
     print("Shape of model after selected feature : " +str(total_data.shape))
-    b.cross_validate(total_data)
+    b.cross_validate(total_data, k = 10)
 
-# b = Bayes_classification()
-# b.train_and_store_model()
-#
-# test_data, test_label = Load_Data(number=None, file_path="/home/toanloi/Documents/comment_classification/Data/MyFeature").\
-#         load_dataset(is_train=False)
-# test_data = transform_to_coo_matrix(test_data, len(test_label), 140200)
-#
-# filename = "/home/toanloi/Documents/comment_classification/final_model.sav"
-# loaded_model = pickle.load((open(filename, 'rb')))
-# probabilities = loaded_model.predict(test_data)
-# print_metrics(test_label, probabilities)
-test()
+    print("\n" * 5)
+    print("Thực hiện loại bỏ các feature có phương sai < 0.95")
+    total_data = b.selection_feature(variance=0.95)
+    print("Shape of original model : " + str(b.total_data.shape))
+    print("Shape of model after selected feature : " + str(total_data.shape))
+    b.cross_validate(total_data, k = 10)
+
+    print("\n"*5)
+    print("Thực hiện thay đổi tham số alpha")
+    x = [0.0001, 0.001, 0.01, 0.1, 0.2, 0.5, 1]
+    for i in x:
+        alpha = float(i)/10
+        score = b.test_alpha(alpha)
+        print_format_2(alpha, score)
+
+    # b.train_and_store_model()
